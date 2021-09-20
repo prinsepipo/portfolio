@@ -1,3 +1,7 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+
 /* Tags */
 
 * {
@@ -84,8 +88,6 @@ a:hover {
 }
 
 .scroll-up button {
-  visibility: hidden;
-
   background: none;
 
   border: 0;
@@ -93,10 +95,10 @@ a:hover {
   cursor: pointer;
 }
 
-.scroll-up button .fas {
+.scroll-up button .fa-arrow-up {
   color: #e3e3e3;
   font-size: 1.5rem;
-  text-shadow: 0 0 3px #000000;
+  text-shadow: 0 0 10px #fff;
 }
 
 
@@ -404,6 +406,6 @@ a:hover {
   text-align: center;
 }
 
-.social-item a .fab {
-  font-size: 20px;
+.social-item a .fa-github {
+  font-size: 25px;
 }
