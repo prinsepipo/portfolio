@@ -276,13 +276,14 @@ a:hover {
 }
 
 .project-tech-list {
+  display: flex;
+  align-items: center;
+
   margin: 10px 0;
 }
 
 .project-tech-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 0.5rem;
 }
 
 .project-tech-item img {

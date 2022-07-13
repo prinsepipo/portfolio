@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import profile from "../static/images/profile.jpg";
+import profile from "../images/profile.jpg";
 
 
 const Header = () => {

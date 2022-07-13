@@ -3,7 +3,7 @@ import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-import profile from "../static/images/profile.jpg"
+import profile from "../images/profile.jpg"
 
 
 const Footer = () => {
