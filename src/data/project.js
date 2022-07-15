@@ -1,6 +1,6 @@
-import projecotaku from "../images/projects/project-otaku.png";
-import highlowcardgame from "../images/projects/high-low-cardgame.png";
-import webtictactoe from "../images/projects/tictactoe.png";
+import projecotaku from "../static/images/projects/project-otaku.png";
+import highlowcardgame from "../static/images/projects/high-low-cardgame.png";
+import webtictactoe from "../static/images/projects/tictactoe.png";
 
 
 const projects = [

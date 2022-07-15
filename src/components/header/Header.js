@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header id="header" className={headerClass}>
       <div className="container">
-        <a href="/"><ProfilePicture /></a>
+        <a href="/" aria-label="Profile Picture"><ProfilePicture /></a>
         <Navbar />
       </div>
     </header>

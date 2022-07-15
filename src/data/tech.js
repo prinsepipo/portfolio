@@ -1,13 +1,13 @@
-import html5 from "../images/tech/html5.png";
-import css3 from "../images/tech/css3.png";
-import js from "../images/tech/js.png";
-import reactjs from "../images/tech/reactjs.png";
-import nodejs from "../images/tech/nodejs.png";
-import python3 from "../images/tech/python3.png";
-import django from "../images/tech/django.png";
-import bubble from "../images/tech/bubble.jpg";
-import restapi from "../images/tech/restapi.png";
-import git from "../images/tech/git.png";
+import html5 from "../static/images/tech/html5.png";
+import css3 from "../static/images/tech/css3.png";
+import js from "../static/images/tech/js.png";
+import reactjs from "../static/images/tech/reactjs.png";
+import nodejs from "../static/images/tech/nodejs.png";
+import python3 from "../static/images/tech/python3.png";
+import django from "../static/images/tech/django.png";
+import bubble from "../static/images/tech/bubble.jpg";
+import restapi from "../static/images/tech/restapi.png";
+import git from "../static/images/tech/git.png";
 
 
 const technologies = [
