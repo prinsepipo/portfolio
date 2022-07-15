@@ -1,10 +1,15 @@
 import * as React from "react";
 
+import ContentContainer from "../common/ContentContainer";
+import ContentHeader from "../common/ContentHeader";
+
+import "./Contact.css";
+
 
 const Contact = () => {
   return (
-    <div id="contact" className="c-contact">
-      <h3 className="c-header">Get in touch</h3>
+    <ContentContainer id="contact" className="c-contact">
+      <ContentHeader title="Get In Touch" />
       <p className="contact-comment">Have a job offer? Want to collaborate? Send me a message.</p>
 
       <form className="contact-form">
@@ -14,7 +19,7 @@ const Contact = () => {
         <textarea className="contact-message" placeholder="Message"></textarea>
         <span className="contact-send"><button type="button">Send</button></span>
       </form>
-    </div>
+    </ContentContainer>
   );
 }
 

@@ -1,0 +1,15 @@
+.profile-picture {
+}
+
+.profile-picture img {
+  width: 60px;
+
+  display: block;
+
+  border-radius: 50%;
+}
+
+
+.profile-picture.large img {
+  width: 80px;
+}

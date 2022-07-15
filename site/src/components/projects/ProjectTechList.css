@@ -1,0 +1,17 @@
+.project-tech-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem 0;
+}
+
+.project-tech-item {
+  margin: 0 0.5rem;
+}
+
+.project-tech-item img {
+  width: 25px;
+
+  display: block;
+}

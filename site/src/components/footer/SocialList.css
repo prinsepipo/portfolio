@@ -1,0 +1,9 @@
+.social-list {
+  margin-top: 2rem;
+
+  text-align: center;
+}
+
+.social-item a .fa-github {
+  font-size: 25px;
+}

@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+
+  background: #1b1b1b;
+
+  padding-top: 4rem;
+}
+
+.footer .profile-picture {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.motto {
+  padding: 0 1rem;
+
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.copyright {
+  display: block;
+
+  padding: 2rem 0;
+
+  color: #878787;
+  text-align: center;
+}

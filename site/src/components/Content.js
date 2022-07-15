@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import About from "./about/About";
+import Projects from "./projects/Projects";
+import Contact from "./contact/Contact";
 
 
 const Content = () => {

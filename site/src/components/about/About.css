@@ -1,0 +1,22 @@
+.c-about {
+  scroll-margin-top: 160px;
+}
+
+.about-message {
+  color: #c2c2c2;
+
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  text-align: center;
+  text-shadow: 4px 4px 8px #000;
+
+  margin: 8rem 0;
+}
+
+
+@media screen and (min-width: 480px) {
+  .about-message {
+    font-size: 2rem;
+  }
+}

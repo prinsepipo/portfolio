@@ -1,6 +1,9 @@
 import * as React from "react";
 
-import profile from "../images/profile.jpg";
+import ProfilePicture from "../common/ProfilePicture";
+import Navbar from './Navbar';
+
+import "./Header.css";
 
 
 const Header = () => {
@@ -29,16 +32,8 @@ const Header = () => {
   return (
     <header id="header" className={headerClass}>
       <div className="container">
-        <span className="profile">
-          <img src={profile} alt="profile_picture" />
-        </span>
-        <nav className="navbar">
-          <ul className="navbar-nav">
-            <li className="navbar-item"><a href="#about">About</a></li>
-            <li className="navbar-item"><a href="#projects">Projects</a></li>
-            <li className="navbar-item"><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <a href="/"><ProfilePicture /></a>
+        <Navbar />
       </div>
     </header>
   );
