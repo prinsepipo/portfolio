@@ -1,9 +1,15 @@
 import * as React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import ContentContainer from "../common/ContentContainer";
 import ContentHeader from "../common/ContentHeader";
 
 import "./Contact.css";
+
+
+const handleSubmit = (e) => {};
 
 
 const Contact = () => {
@@ -12,13 +18,20 @@ const Contact = () => {
       <ContentHeader title="Get In Touch" />
       <p className="contact-comment">Have a job offer? Want to collaborate? Send me a message.</p>
 
-      <form className="contact-form">
-        <input className="contact-name" type="text" placeholder="Name" />
-        <input className="contact-email" type="email" placeholder="Email" />
-        <input className="contact-subject" type="text" placeholder="Subject" />
-        <textarea className="contact-message" placeholder="Message"></textarea>
-        <span className="contact-send"><button type="button">Send</button></span>
-      </form>
+      <ul class="contact-list">
+        <li className="contact-item contact-email">
+          <a href="mailto:prinsepipo.sanchez@gmail.com" title="prinsepipo.sanchez@gmail.com">
+            <span class="contact-icon"><FontAwesomeIcon icon={faEnvelope} /></span>
+            <span>prinsepipo.sanchez@gmail.com</span>
+          </a>
+        </li>
+        <li className="contact-item contact-linkedin">
+          <a href="https://www.linkedin.com/in/josaphat-lumapas-350640180/" title="https://www.linkedin.com/in/josaphat-lumapas-350640180/" target="_blank">
+            <span class="contact-icon"><FontAwesomeIcon icon={faLinkedin} /></span>
+            <span>LinkedIn Profile</span>
+          </a>
+        </li>
+      </ul>
     </ContentContainer>
   );
 }

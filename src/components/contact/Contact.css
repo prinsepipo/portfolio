@@ -16,89 +16,27 @@
   text-align: center;
 }
 
-.contact-form {
-  display: grid;
-  grid-template-areas:
-    'contact-name'
-    'contact-email'
-    'contact-subject'
-    'contact-message'
-    'contact-send';
+.contact-list {
+  width: fit-content;
 
-  max-width: 600px;
-
-  margin: auto;
+  margin: 0 auto;
+  padding-left: 5rem;
 }
 
-@media screen and (min-width: 500px) {
-  .contact-form {
-    grid-template-areas:
-      'contact-name contact-email'
-      'contact-subject contact-subject'
-      'contact-message contact-message'
-      'contact-send contact-send';
-  }
+.contact-item {
+  width: fit-content;
+
+  margin: 1rem 0;
 }
 
-.contact-form input, .contact-form textarea, .contact-form button {
-  width: auto;
-
-  background: #1b1b1b;
-  color: #e0e0e0;
-  font-size: 0.85rem;
-
-  padding: 10px 20px;
-  margin: 5px 10px;
-
-  border: 0;
-  border-radius: 5px;
+.contact-item .contact-icon {
+  margin-right: 1rem;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
-  background: #151515 !important;
-
-  outline: none;
+.contact-item:hover, .contact-item:hover a {
+  color: #75a4f8;
 }
 
-.contact-name {
-  grid-area: contact-name;
-}
-
-.contact-email {
-  grid-area: contact-email;
-}
-
-.contact-subject {
-  grid-area: contact-subject;
-}
-
-.contact-message {
-  grid-area: contact-message;
-
-  height: 200px;
-
-  resize: none;
-}
-
-.contact-send {
-  grid-area: contact-send;
-}
-
-.contact-send button {
-  width: 200px;
-
-  float: right;
-
-  color: #a1a1a1 !important;
-  font-weight: bolder;
-}
-
-.contact-send button:hover {
-  color: #e0e0e0 !important;
-
-  cursor: pointer;
-}
-
-.contact-send button:active {
-  background: #151515 !important;
+.contact-item:hover a {
+  text-decoration: underline;
 }
