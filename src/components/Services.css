@@ -1,0 +1,35 @@
+.c-services {
+  background: #1b1b1b;
+
+  scroll-margin-top: 80px;
+}
+
+.service-list {
+}
+
+.service-item {
+  width: 500px;
+  margin: 2rem auto;
+}
+
+.service-item h3 {
+  margin: 0.5rem 0;
+}
+
+.service-item p {
+  color: #878787;
+
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.service-item a {
+  color: #666666;
+
+  font-size: 0.7rem;
+}
+
+.service-details {
+  display: inline-block;
+  margin-left: 2rem;
+}
