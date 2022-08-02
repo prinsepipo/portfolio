@@ -9,13 +9,13 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <ProfilePicture large/>
+        <ProfilePicture large/>
 
-      <p className="motto">Living, learning, & levelling up one day at a time.</p>
+        <p className="motto">Faster. Smarter. Better. Not special, just different.</p>
 
-      <SocialList />
+        <SocialList />
 
-      <small className="copyright">Copyright &copy; 2022</small>
+        <small className="copyright" title="Copyright &copy; 2022">Copyright &copy; MMXXII</small>
     </footer>
   );
 }

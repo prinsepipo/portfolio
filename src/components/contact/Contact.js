@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <ContentContainer id="contact" className="c-contact">
       <ContentHeader title="Get In Touch" />
-      <p className="contact-comment">Have a job offer? Want to collaborate? Send me a message.</p>
+      <p className="contact-comment">Got an opportunity? Want to collaborate? Send me a message.</p>
 
       <ul class="contact-list">
         <li className="contact-item contact-email">
