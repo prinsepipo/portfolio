@@ -11,6 +11,7 @@ const Navbar = () => {
       <ul className="navbar-nav">
         <NavItem title="About" href="#about" />
         <NavItem title="Projects" href="#projects" />
+        <NavItem title="Work" href="#work" />
         <NavItem title="Services" href="#services" />
         <NavItem title="Contact" href="#contact" />
       </ul>

@@ -1,0 +1,89 @@
+.c-work {
+  scroll-margin-top: 80px;
+}
+
+.work-list {
+  position: relative;
+
+  max-width: 600px;
+
+  margin: 0 auto;
+}
+
+.work-item {
+  position: relative;
+
+  background: #1b1b1b;
+
+  margin: 2rem 1rem;
+  padding: 1rem;
+
+  border-radius: 4px;
+
+  transition: all 0.2s;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+  z-index: 10;
+}
+
+.work-company {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.work-position {
+  margin: 8px 0;
+
+  color: #b4b4b4;
+}
+
+.work-details {
+  color: #878787;
+
+  font-size: 0.9rem;
+}
+
+.work-date {
+  display: block;
+
+  margin: 8px 0;
+
+  color: #878787;
+}
+
+.timeline {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+
+  width: 4px;
+  background: #1b1b1b;
+  height: 120%;
+
+  z-index: 1;
+}
+
+.timeline::before, .timeline::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #1b1b1b;
+
+  border-radius: 50%;
+}
+
+.timeline::before {
+  top: 0;
+}
+
+.timeline::after {
+  top: 100%;
+}
