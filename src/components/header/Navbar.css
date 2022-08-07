@@ -3,4 +3,29 @@
 }
 
 .navbar-nav {
+  display: none;
+}
+
+.navbar-toggler {
+  width: 40px;
+  height: 40px;
+
+  background: none;
+  color: #eee;
+
+  font-size: 1.5rem;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+@media screen and (min-width: 620px) {
+  .navbar-nav {
+    display: block;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
 }

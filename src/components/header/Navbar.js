@@ -1,11 +1,18 @@
 import * as React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+import { PopupContext } from "../../context/popup";
+
 import NavItem from "./NavItem";
 
 import "./Navbar.css";
 
 
 const Navbar = () => {
+  const { setIsOpen } = React.useContext(PopupContext);
+
   return (
     <nav className="navbar">
       <ul className="navbar-nav">
@@ -15,6 +22,9 @@ const Navbar = () => {
         <NavItem title="Services" href="#services" />
         <NavItem title="Contact" href="#contact" />
       </ul>
+      <button className="navbar-toggler" type="button" onClick={() => {setIsOpen(true)}}>
+        <FontAwesomeIcon icon={faBars} />
+      </button>
     </nav>
   );
 };

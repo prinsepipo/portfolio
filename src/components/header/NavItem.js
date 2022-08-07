@@ -5,7 +5,13 @@ import "./NavItem.css";
 
 const NavItem = (props) => {
   return (
-    <li className="navbar-item"><a href={props.href} title={props.title}>{props.title}</a></li>
+    <li className="navbar-item">
+      <a
+        href={props.href}
+        title={props.title}
+        {...props}
+      >{props.title}</a>
+    </li>
   );
 };
 
