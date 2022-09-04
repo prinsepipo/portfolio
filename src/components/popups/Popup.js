@@ -14,8 +14,10 @@ const Popup = () => {
   } = React.useContext(PopupContext);
 
   const handleOverlay = (e) => {
-    setIsOpen(false);
-  }
+    if (e.target.classList.contains('popup-overlay')) {
+      setIsOpen(false);
+    }
+  };
 
   return (
     <div className="popup">

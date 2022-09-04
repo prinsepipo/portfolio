@@ -18,7 +18,7 @@ const PopupNavbar = (props) => {
   };
 
   return (
-    <div className="popup-navbar" onClick={(e) => e.stopPropagation()}>
+    <div className="popup-navbar">
       <nav className="navbar">
         <ul className="navbar-nav">
           <NavItem title="About" href="#about" onClick={closePopup} />
