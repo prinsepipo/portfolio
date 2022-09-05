@@ -1,9 +1,18 @@
 import projecotaku from "../static/images/projects/project-otaku.png";
 import highlowcardgame from "../static/images/projects/high-low-cardgame.png";
 import webtictactoe from "../static/images/projects/tictactoe.png";
+import portfolio from "../static/images/projects/pipo-portfolio.jpeg";
 
 
 const projects = [
+  {
+    name: "Portfolio",
+    details: "This very portfolio website you are looking.",
+    thumbnail: portfolio,
+    liveUrl: "https://devpipo.gtsb.io",
+    sourceUrl: "https://github.com/prinsepipo/portfolio",
+    techIds: [4],
+  },
   {
     name: "Project Otaku",
     details: "Project Otaku is a web app for creating and managing your anime and manga list. It uses drag and drop system to manage your list.",

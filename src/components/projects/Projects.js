@@ -30,7 +30,13 @@ const Projects = () => {
                 <a className="project-title" href={project.liveUrl} title={project.liveUrl}>{project.name}</a>
                 <p className="project-description">{project.details}</p>
                 <ProjectTechList techs={projectTechs} />
-                <a className="project-source" href={project.sourceUrl} title={project.sourceUrl}>View Source</a>
+                <a
+                  className="project-source"
+                  href={project.sourceUrl}
+                  title={project.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >View Source</a>
               </li>
             );
           })}
