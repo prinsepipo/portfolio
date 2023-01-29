@@ -23,7 +23,7 @@ const Projects = () => {
             return (
               <li className="project-item" key={i}>
                 <div className="project-thumbnail">
-                  <a href={project.liveUrl} title={project.liveUrl}>
+                  <a href={project.liveUrl} title={project.liveUrl} target="_blank" rel="noreferrer">
                     <img src={project.thumbnail} alt={project.name + " thumbnail"} />
                   </a>
                 </div>

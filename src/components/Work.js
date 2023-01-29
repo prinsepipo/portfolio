@@ -8,13 +8,15 @@ import experiences from "../data/work";
 import "./Work.css";
 
 
+const workExperiences = experiences.sort((a, b) => a.sortOrder - b.sortOrder);
+
 const Work = () => {
   return (
     <ContentContainer id="work" className="c-work">
       <ContentHeader title="Work Experiences" />
       <div className="work-list">
         <div className="timeline"></div>
-        {experiences.map((work, i) => (
+        {workExperiences.map((work, i) => (
           <div key={i} className="work-item">
             <h3 className="work-company">{work.company}</h3>
             <p className="work-position">{work.position}</p>

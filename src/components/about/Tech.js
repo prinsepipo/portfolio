@@ -6,6 +6,7 @@ import technologies from "../../data/tech";
 
 import "./Tech.css";
 
+const techs = technologies.sort((a, b) => a.sortOrder - b.sortOrder);
 
 const TechList = () => {
   return (
@@ -14,7 +15,7 @@ const TechList = () => {
 
       <div className="container">
         <ul className="tech-list">
-          {technologies.map((tech, i) => {
+          {techs.map((tech, i) => {
             return (
               <li className="tech-item" key={i}>
                 <img src={tech.icon} alt={tech.name + " icon"} />
