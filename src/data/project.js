@@ -2,6 +2,7 @@ import projecotaku from "../static/images/projects/project-otaku.png";
 import highlowcardgame from "../static/images/projects/high-low-cardgame.png";
 import webtictactoe from "../static/images/projects/tictactoe.png";
 import portfolio from "../static/images/projects/pipo-portfolio.jpeg";
+import meaa from "../static/images/projects/meaa.png";
 
 
 const projects = [
@@ -20,6 +21,14 @@ const projects = [
     liveUrl: "https://projectotaku.herokuapp.com/",
     sourceUrl: "https://github.com/prinsepipo/projectotaku",
     techIds: [7, 4, 9],
+  },
+  {
+    name: "School Landing Page",
+    details: "A demo landing page of a school. A mobile first approach developed using GatsbyJS.",
+    thumbnail: meaa,
+    liveUrl: "https://prinsepipo.github.io/meaa/",
+    sourceUrl: "https://github.com/prinsepipo/meaa",
+    techIds: [1, 2, 3, 4],
   },
   {
     name: "High-Low Card Game",
