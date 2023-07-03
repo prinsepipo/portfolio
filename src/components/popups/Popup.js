@@ -22,7 +22,7 @@ const Popup = () => {
   return (
     <div className="popup">
       {isOpen ? (
-        <div className="popup-overlay" onClick={handleOverlay}>
+        <div className="popup-overlay" onClick={handleOverlay} role="none">
           <PopupNavbar />
         </div>
       ) : null}
