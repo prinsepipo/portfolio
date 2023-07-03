@@ -8,7 +8,7 @@ import experiences from "../data/work";
 import "./Work.css";
 
 
-const workExperiences = experiences.sort((a, b) => a.sortOrder - b.sortOrder);
+const workExperiences = experiences.sort((a, b) => b.sortOrder - a.sortOrder);
 
 const Work = () => {
   return (
