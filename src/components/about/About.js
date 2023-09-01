@@ -9,7 +9,7 @@ import "./About.css";
 const About = () => {
   return (
     <ContentContainer id="about" className="c-about">
-      <h2 className="about-message">Hi, I'm Pipo and I'm a software enigneer.</h2>
+      <h2 className="about-message">Hi, I'm Pipo and I'm a software engineer.</h2>
 
       <Tech />
     </ContentContainer>
