@@ -18,7 +18,7 @@ const projects = [
     name: "Project Otaku",
     details: "Project Otaku is a web app for creating and managing your anime and manga list. It uses drag and drop system to manage your list.",
     thumbnail: projecotaku,
-    liveUrl: "https://projectotaku.herokuapp.com/",
+    liveUrl: "https://github.com/prinsepipo/projectotaku",
     sourceUrl: "https://github.com/prinsepipo/projectotaku",
     techIds: [7, 4, 9],
   },
