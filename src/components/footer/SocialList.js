@@ -15,6 +15,7 @@ const SocialList = () => {
         title="https://github.com/prinsepipo"
         target="_blank"
         rel="noreferrer"
+        aria-label="Social Item"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>

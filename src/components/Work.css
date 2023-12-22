@@ -13,7 +13,7 @@
 .work-item {
   position: relative;
 
-  background: #1b1b1b;
+  background: #1e1e1e;
 
   margin: 2rem 1rem;
   padding: 1rem;
@@ -22,9 +22,15 @@
 
   transition: all 0.2s;
 
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
   z-index: 10;
+}
+
+.work-item.work-item--active {
+  background: #181818;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .work-company {
@@ -50,6 +56,20 @@
   margin: 8px 0;
 
   color: #878787;
+}
+
+.work-item .work-company,
+.work-item .work-position,
+.work-item .work-details,
+.work-item .work-date {
+  opacity: 0.5;
+}
+
+.work-item.work-item--active .work-company,
+.work-item.work-item--active .work-position,
+.work-item.work-item--active .work-details,
+.work-item.work-item--active .work-date {
+  opacity: 1;
 }
 
 .timeline {

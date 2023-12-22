@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavItem title="Services" href="#services" />
         <NavItem title="Contact" href="#contact" />
       </ul>
-      <button className="navbar-toggler" type="button" onClick={() => {setIsOpen(true)}}>
+      <button className="navbar-toggler" type="button" aria-label="Navbar Toggler" onClick={() => {setIsOpen(true)}}>
         <FontAwesomeIcon icon={faBars} />
       </button>
     </nav>

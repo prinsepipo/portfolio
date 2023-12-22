@@ -4,6 +4,7 @@ const work = [
     position: "Software Developer",
     details: "Developed web and mobile applications using Bubble technology.",
     date: "2021 - 2022",
+    active: false,
     sortOrder: 1,
   },
   {
@@ -11,6 +12,7 @@ const work = [
     position: "Front-End Web Developer",
     details: "Maintaining and upgrading the existing website of the company.",
     date: "2022 - 2023",
+    active: false,
     sortOrder: 2,
   },
   {
@@ -18,6 +20,7 @@ const work = [
     position: "Software Engineer",
     details: "Working as an enigneer and AWS specialist to Japanese clients.",
     date: "2023 - Current",
+    active: true,
     sortOrder: 3,
   },
 ];

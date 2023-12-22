@@ -28,7 +28,12 @@ const PopupNavbar = (props) => {
           <NavItem title="Contact" href="#contact" onClick={closePopup} />
         </ul>
       </nav>
-      <button className="popup-close" type="button" onClick={closePopup}>
+      <button
+        className="popup-close"
+        type="button"
+        aria-label="Popup Close"
+        onClick={closePopup}
+      >
         <FontAwesomeIcon icon={faClose} />
       </button>
     </div>

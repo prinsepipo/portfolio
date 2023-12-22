@@ -33,7 +33,13 @@ const ButtonScrollUp = () => {
 
   return (
     <div className="scroll-up">
-      <button id="scrollup" type="button" title="Back to top" onClick={handleClick}>
+      <button
+        id="scrollup"
+        type="button"
+        title="Back to top"
+        aria-label="Scroll Up Button"
+        onClick={handleClick}
+      >
         <FontAwesomeIcon icon={faArrowUp} />
       </button>
     </div>

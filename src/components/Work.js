@@ -11,13 +11,23 @@ import "./Work.css";
 const workExperiences = experiences.sort((a, b) => b.sortOrder - a.sortOrder);
 
 const Work = () => {
+  const workItemClass = (work) => {
+    let className = "work-item";
+
+    if (work.active) {
+      className += " work-item--active";
+    }
+
+    return className;
+  }
+
   return (
     <ContentContainer id="work" className="c-work">
       <ContentHeader title="Work Experiences" />
       <div className="work-list">
         <div className="timeline"></div>
         {workExperiences.map((work, i) => (
-          <div key={i} className="work-item">
+          <div key={i} className={workItemClass(work)}>
             <h3 className="work-company">{work.company}</h3>
             <p className="work-position">{work.position}</p>
             <p className="work-details">{work.details}</p>
