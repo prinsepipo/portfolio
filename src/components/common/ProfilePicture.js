@@ -1,6 +1,5 @@
 import * as React from "react";
-
-import profile from "../../static/images/profile.jpg";
+import { StaticImage } from "gatsby-plugin-image";
 
 import "./ProfilePicture.css";
 
@@ -14,7 +13,11 @@ function ProfilePicture(props) {
 
   return (
     <div className={className}>
-      <img src={profile} alt="profile_picture" />
+      <StaticImage
+        src="../../static/images/profile.jpg"
+        alt="profile_picture"
+        width={80}
+      />
     </div>
   );
 }

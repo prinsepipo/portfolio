@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://www.realpipo.dev",
     title: "Pipo's Portfolio",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
 };
