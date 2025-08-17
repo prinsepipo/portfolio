@@ -10,6 +10,7 @@ import Popup from "../components/popups/Popup";
 
 // styles
 import "../static/css/style.css";
+import { graphql } from "gatsby";
 
 
 // markup
@@ -29,3 +30,19 @@ const IndexPage = () => {
 }
 
 export default IndexPage;
+
+export const Head = ({data}) => {
+  return (
+    <title>{data.site.siteMetadata.title}</title>
+  );
+}
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
