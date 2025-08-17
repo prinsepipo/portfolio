@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 
+/* Variables */
+:root {
+  --bg-1: #202020;
+  --bg-2: #1b1b1b;
+}
+
 /* Tags */
 
 * {
@@ -15,7 +21,7 @@
 }
 
 body {
-  background: #252525;
+  background: var(--bg-1);
   color: #e0e0e0;
 }
 
@@ -40,4 +46,19 @@ a:hover {
   max-width: 900px;
 
   margin: auto;
+}
+
+/* Text */
+
+.gradient-text {
+  background: linear-gradient(to right, #00ffff, #3b82f6, #c488fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Content */
+
+.content-container:nth-child(even) {
+  background: var(--bg-2);
 }

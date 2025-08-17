@@ -9,6 +9,7 @@ import bubble from "../static/images/tech/bubble.jpg";
 import restapi from "../static/images/tech/restapi.png";
 import git from "../static/images/tech/git.png";
 import vue from "../static/images/tech/vue.png";
+import aws from "../static/images/tech/aws.png";
 
 
 const technologies = [
@@ -64,13 +65,13 @@ const technologies = [
     id: 9,
     name: "REST API",
     icon: restapi,
-    sortOrder: 10,
+    sortOrder: 11,
   },
   {
     id: 10,
     name: "Git",
     icon: git,
-    sortOrder: 11,
+    sortOrder: 12,
   },
   {
     id: 11,
@@ -78,6 +79,12 @@ const technologies = [
     icon: vue,
     sortOrder: 5,
   },
+  {
+    id: 12,
+    name: "AWS",
+    icon: aws,
+    sortOrder: 10,
+  }
 ];
 
 

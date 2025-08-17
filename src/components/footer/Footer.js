@@ -15,7 +15,7 @@ const Footer = () => {
 
         <SocialList />
 
-        <small className="copyright" title="Copyright &copy; 2022">Copyright &copy; 2023</small>
+        <small className="copyright" title="All Rights Reserved &copy; 2025">All Rights Reserved &copy; 2025</small>
     </footer>
   );
 }
